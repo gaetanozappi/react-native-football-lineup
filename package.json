@@ -1,0 +1,11 @@
+{
+  "name": "react-native-football-lineup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "FootballField.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
