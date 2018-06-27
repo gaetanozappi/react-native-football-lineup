@@ -1,7 +1,8 @@
 # React Native: Football Lineup
 
-[![github home](https://img.shields.io/badge/gaetanozappi-react--native--football--lineup-blue.svg?style=flat-square)](https://github.com/gaetanozappi/react-native-football-lineup)
-[![github issues](https://img.shields.io/github/issues/gaetanozappi/react-native-football-lineup.svg?style=flat-square)](https://github.com/gaetanozappi/react-native-football-lineup/issues)
+[![github home](http://img.shields.io/npm/v/react-native-football-lineup.svg?style=flat)](https://www.npmjs.com/package/react-native-football-lineup)
+[![github home](https://img.shields.io/badge/gaetanozappi-react--native--football--lineup-blue.svg?style=flat)](https://github.com/gaetanozappi/react-native-football-lineup)
+[![github issues](https://img.shields.io/github/issues/gaetanozappi/react-native-football-lineup.svg?style=flat)](https://github.com/gaetanozappi/react-native-football-lineup/issues)
 
 ![PNG](screenshot/react-native-football-lineup.png)
 
@@ -209,4 +210,4 @@ const styles = StyleSheet.create({
 ```
 
 ## License
-The MIT License
+This library is provided under the Apache License.
