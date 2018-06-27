@@ -14,7 +14,7 @@
 ```javascript
 import React, { Component } from 'react';
 import { View, StyleSheet } from 'react-native';
-import FootballField from './FootballField';
+import FootballField from 'react-native-football-lineup';
 
 var home = {
   name: 'POR',
