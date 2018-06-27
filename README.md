@@ -9,6 +9,10 @@
 -   [Usage](#usage)
 -   [License](#license)
 
+## 📖 Getting started
+
+`$ npm install react-native-football-lineup --save`
+
 ## Usage
 
 ```javascript
