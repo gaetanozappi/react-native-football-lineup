@@ -1,4 +1,4 @@
-# React Native: Football Lineup
+# React Native: react-native-football-lineup
 
 [![github home](http://img.shields.io/npm/v/react-native-football-lineup.svg?style=flat)](https://www.npmjs.com/package/react-native-football-lineup)
 [![github home](https://img.shields.io/badge/gaetanozappi-react--native--football--lineup-blue.svg?style=flat)](https://github.com/gaetanozappi/react-native-football-lineup)
@@ -212,6 +212,13 @@ const styles = StyleSheet.create({
 });
 
 ```
+
+## 💡 Props
+
+| Prop              | Type       | Default | Note                                                                                                       |
+| ----------------- | ---------- | ------- | ---------------------------------------------------------------------------------------------------------- |
+| `home`      | `array`   |  | Football team playing at home.
+| `away`       | `array`   |  | Football team playing outside home.
 
 ## License
 This library is provided under the Apache License.
