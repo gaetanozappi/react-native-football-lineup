@@ -12,14 +12,14 @@
 
 ![PNG](screenshot/react-native-football-lineup.png)
 
--   [Usage](#usage)
--   [License](#license)
+-   [Usage](#-usage)
+-   [License](#-license)
 
 ## 📖 Getting started
 
 `$ npm install react-native-football-lineup --save`
 
-## Usage
+## 💻 Usage
 
 ```javascript
 import React, { Component } from 'react';
@@ -226,5 +226,5 @@ const styles = StyleSheet.create({
 | `home`      | `array`   |  | Football team playing at home.
 | `away`       | `array`   |  | Football team playing outside home.
 
-## License
+## 📜 License
 This library is provided under the Apache License.
