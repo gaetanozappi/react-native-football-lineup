@@ -52,9 +52,9 @@ export default class FootballField extends Component {
               </View>
 
               {this.state.home.team.map((data, i) => (
-                <View style={styles.rowHome}>
+                <View key={'h' + i} style={styles.rowHome}>
                   {data.map((d, j) => (
-                    <View style={styles.el}>
+                    <View key={'he' + j} style={styles.el}>
                       <View
                         style={{
                           flexDirection: 'row',
@@ -64,7 +64,8 @@ export default class FootballField extends Component {
                             d.name == el.player &&
                             el.type_of_event == 'yellow-card' && (
                               <Image
-                                source={require('./imagess/card-yellow.png')}
+                                key={'hy' + z}
+                                source={require('./images/card-yellow.png')}
                                 style={{
                                   width: 12,
                                   height: 15,
@@ -79,6 +80,7 @@ export default class FootballField extends Component {
                             d.name == el.player &&
                             el.type_of_event == 'red-card' && (
                               <Image
+                                key={'hr' + z}
                                 source={require('./images/card-red.png')}
                                 style={{
                                   width: 12,
@@ -97,6 +99,7 @@ export default class FootballField extends Component {
                             d.name == el.player &&
                             el.type_of_event == 'substitution-in' && (
                               <Image
+                                key={'hs' + z}
                                 source={require('./images/refresh.png')}
                                 style={{
                                   width: 12,
@@ -122,9 +125,9 @@ export default class FootballField extends Component {
                 paddingTop: 55,
               }}>
               {this.state.away.team.reverse().map((data, i) => (
-                <View style={styles.rowAway}>
+                <View key={'a' + i} style={styles.rowAway}>
                   {data.map((d, j) => (
-                    <View style={styles.el}>
+                    <View key={'ae' + j} style={styles.el}>
                       <Text style={styles.text}>{d.name}</Text>
                       <View
                         style={{
@@ -135,6 +138,7 @@ export default class FootballField extends Component {
                             d.name == el.player &&
                             el.type_of_event == 'yellow-card' && (
                               <Image
+                                key={'ay' + z}
                                 source={require('./images/card-yellow.png')}
                                 style={{
                                   width: 12,
@@ -150,6 +154,7 @@ export default class FootballField extends Component {
                             d.name == el.player &&
                             el.type_of_event == 'red-card' && (
                               <Image
+                                key={'ar' + z}
                                 source={require('./images/card-red.png')}
                                 style={{
                                   width: 12,
@@ -168,6 +173,7 @@ export default class FootballField extends Component {
                             d.name == el.player &&
                             el.type_of_event == 'substitution-in' && (
                               <Image
+                                key={'as' + z}
                                 source={require('./images/refresh.png')}
                                 style={{
                                   width: 12,
