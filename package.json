@@ -1,6 +1,6 @@
 {
   "name": "react-native-football-lineup",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "React Native library to generate a football field, with team training.",
   "repository": {
     "type": "git",
